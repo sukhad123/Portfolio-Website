@@ -15,16 +15,17 @@ export default function About() {
                     <p className= "pField">
                         I am a passionate software developer with expertise in full-stack development using React, Node.js, and Next.js. 
                         Currently pursuing an Advanced diploma in Computer Programming & Analysis at Seneca Polytechnic, I enjoy building robust systems, exploring new tools, and tackling challenges through hackathons.
-                    </p>
-                    <p className= "pField">
+                   
+                    
                         Skilled in Java and modern web technologies, I’m driven to create impactful solutions and continuously learn in the ever evolving tech landscape.
+                    
                     </p>
                    
                 </div>
             </div>
 
             <h1 className = "headerTopGap">Education</h1>
-            <div className ="flex flex-row">
+            <div className ="color flex flex-row">
                 
                 <div className = "basis-1/2 grow ">
                   
@@ -38,7 +39,7 @@ export default function About() {
             </div>
 
             <h1 className = "headerTopGap">Work Experience</h1>
-            <div className ="flex flex-row">
+            <div className ="color flex flex-row">
                 
                 <div className = "basis-1/2 grow ">
                         <div className= " flex justify-between items-end">

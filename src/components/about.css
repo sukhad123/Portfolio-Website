@@ -1,8 +1,6 @@
 .mainBody1 {
     
     width: 100%; /* Ensures it spans the full width of its container */
-    
-   
     font-family: "Sour Gummy", serif;
     font-size:15px;
     padding:20px;
@@ -13,6 +11,7 @@
     margin-bottom: 5px;
     border: 1px solid black;
     border-radius: 2%;
+    background-color: #D7D3BF;
  }
  .skater {
     border-radius:10%;

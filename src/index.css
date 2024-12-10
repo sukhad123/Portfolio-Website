@@ -18,6 +18,14 @@
   font-style: normal;
 }
 
+.color
+ {
+    padding:10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: #D7D3BF;
+ }
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #F8FAFC;
@@ -34,4 +42,20 @@ body {
 h1{
   font-size: 25px;
 }
- 
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+  .bodyH1
+{
+    font-family: "Sour Gummy", serif;
+    font-size:30px;
+    padding:0px 25px;
+}
+.pSmall{
+  font-size:20px;
+}
+.navSize{
+  font-size:15px;
+}
+  }
