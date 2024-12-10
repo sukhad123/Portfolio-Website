@@ -23,7 +23,9 @@
 .customBtn{
     margin-left: 20px;
     margin-top:10px;
-    border-radius: 20%;
+    border-radius: 50px;
+    background: var(--accent);
+    cursor: pointer;
    
 }
 .image{
