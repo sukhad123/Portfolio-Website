@@ -1,7 +1,7 @@
  
-import Navbar from "../../portfolio/src/components/navbar.js"
-import Body from "../../portfolio/src/components/body.js"
-import About from "../../portfolio/src/components/about.js"
+import Navbar from "./components/navbar.js"
+import Body from "./components/body.js"
+import About from "./components/about.js"
  
 function App() {
   return (
