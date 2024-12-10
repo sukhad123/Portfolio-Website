@@ -2,19 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bungee+Tint&family=New+Amsterdam&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-.custom{
-  background-color:#ECEBDE;
-  font-family: "Sour Gummy", serif;
-  font-weight: 400; /* Normal weight, or adjust between 100 and 900 */
- font-size: 20px; /* This sets the font size */
-  font-style: normal;
-}
+
 @import './components/navbar.css';
 @import './components/body.css';
 @import './components/about.css';
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+.custom{
+  background-color:#ECEBDE;
+  font-family: "Sour Gummy", serif;
+  font-weight: 400; /* Normal weight, or adjust between 100 and 900 */
+ font-size: 20px; /* This sets the font size */
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {

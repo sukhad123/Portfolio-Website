@@ -47,7 +47,7 @@ export default function About() {
                     </div>
                     Empowered Futures
                     <br/>
-                    <ul class="custom-list">
+                    <ul className="custom-list">
                  <li>Developed and optimized back-end applications for Empowered Futures.</li>
                 <li>Collaborated with developers and participated in code reviews to enhance quality standards.</li>
                <li>Resolved application bugs and issues through effective troubleshooting techniques.</li>
