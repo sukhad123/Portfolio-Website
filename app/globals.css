@@ -28,7 +28,7 @@
 body {
   color: var(--foreground);
   background: #ECEBDE;
-  font-family: "Sour Gummy", serif;
+  font-family: var(--font-geist-sans), Arial, sans-serif;
   padding:0px 20px;;
 }
 h1{
