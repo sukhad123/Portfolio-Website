@@ -58,4 +58,11 @@ h1{
 .navSize{
   font-size:15px;
 }
+.mainBody {
+  height: 480px;
+  width: 100%; /* Ensures it spans the full width of its container */
+  background-color: #D7D3BF; /* Optional: Adds a background color for visibility */
+  border: 0.5px solid black; /* Optional: Adds a border for clarity */
+   
+}
   }
