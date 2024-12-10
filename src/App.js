@@ -2,6 +2,8 @@
 import Navbar from "./components/navbar.js"
 import Body from "./components/body.js"
 import About from "./components/about.js"
+import Skill from "./components/skill.js"
+ 
 import { motion, useScroll } from "framer-motion";
  
 function App() {
@@ -14,9 +16,12 @@ function App() {
       />
     <main>
       <motion.div style={{ scaleX: scrollYProgress }} />
+ 
       <Navbar />
       <Body />
       <About />
+      <Skill name = "sukhad"/>
+  
     </main>
     </>
   

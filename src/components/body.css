@@ -5,10 +5,12 @@
     width: 100%; /* Ensures it spans the full width of its container */
     background-color: #D7D3BF; /* Optional: Adds a background color for visibility */
     border: 0.5px solid black; /* Optional: Adds a border for clarity */
+    padding: 80px 5px 0px 0px;
      
 }
+
 .content{
-    margin-top:80px;
+ 
     align-items: center;
     font-family: "Sour Gummy", serif;
     font-size:20px;

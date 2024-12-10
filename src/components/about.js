@@ -1,11 +1,12 @@
 import * as React from "react";
 // Uncomment and use this if you plan to implement media queries
 // import { useMediaQuery } from "@uidotdev/usehooks";
-
+import { useMediaQuery } from 'react-responsive';
+import { motion } from "framer-motion";
 export default function About() {
     // Example: Condition to check if it's mobile or desktop
     // const isMobile = useMediaQuery({ query: '(max-width: 650px)' });
-
+    const isMobile = useMediaQuery({ query: '(max-width: 650px)' });
     return (
         <div id ="aboutt" className = "mainBody1">
             <h1 >About Me</h1>
@@ -24,6 +25,8 @@ export default function About() {
                 </div>
             </div>
 
+            <div className={isMobile ? 'flex flex-col' : 'flex flex-row space-x-5'}>
+                <div className="basis-1/2 padding ">
             <h1 className = "headerTopGap">Education</h1>
             <div className ="color flex flex-row">
                 
@@ -37,7 +40,8 @@ export default function About() {
                     <br/>
                 </div>
             </div>
-
+            </div>
+            <div className="basis-1/2 padding ">
             <h1 className = "headerTopGap">Work Experience</h1>
             <div className ="color flex flex-row">
                 
@@ -55,7 +59,9 @@ export default function About() {
             </ul>
 
                 </div>
+                </div>
             </div>
+        </div>
         </div>
     );
 }
