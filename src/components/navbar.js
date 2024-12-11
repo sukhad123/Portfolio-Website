@@ -13,9 +13,7 @@ export default function Navbar()
         <a href="#projects" className="text-gray-700 hover:text-gray-900 transition">
             <button className="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 w-full md:w-auto">Projects</button>
         </a>
-        <a href="#contact" className="text-gray-700 hover:text-gray-900 transition">
-            <button className="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 w-full md:w-auto">Contact</button>
-        </a>
+     
     </div>
 </div>
 }
