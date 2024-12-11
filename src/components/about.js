@@ -31,46 +31,40 @@ export default function About() {
                 </div>
             </div>
 
-            <div className={isMobile ? 'flex flex-col' : 'flex flex-row space-x-5'}>
-                <div className="basis-1/2 padding ">
-            <h1 className = "headerTopGap">Education</h1>
-            <div className ="color flex flex-row">
-                
-                <div className = "basis-1/2 grow ">
-                  
-                        <div className= " flex justify-between items-end">
-                    <span><b>Seneca Polytechnic</b></span>
-                    <span className="ml-">2022- 2025</span> 
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-5">
+            {/* Education Section */}
+            <div className={`designSkill w-full ${isMobile ? 'basis-full' : 'basis-1/2'} p-4 bg-white text-gray-800 rounded-lg shadow-lg`} style={{ backgroundColor: '#D7D3BF' }}>
+                <h1 className="text-xl font-semibold mb-4">Education</h1>
+                <div className="flex flex-col space-y-4">
+                    <div className="flex flex-row justify-between items-end">
+                        <span className="font-bold">Seneca Polytechnic</span>
+                        <span className="text-gray-600">2022 - 2025</span>
                     </div>
-                    Advanced Diploma in Computer Programming and Analysis
-                    <br/>
+                    <p className="text-gray-700">Advanced Diploma in Computer Programming and Analysis</p>
                 </div>
             </div>
-            </div>
-            <div className="basis-1/2 padding ">
-            <h1 className = "headerTopGap">Work Experience</h1>
-            <div className ="color flex flex-row">
-                
-                <div className = "basis-1/2 grow ">
-                        <div className= " flex justify-between items-end">
-                    <span><b>Software Developer,</b></span>
-                    <span className="ml-">2024 - Present</span> 
-                    </div>
-                    Empowered Futures
-                    <br/>
-                    <ul className="custom-list">
-                 <li>Developed and optimized back-end applications for Empowered Futures.</li>
-                <li>Collaborated with developers and participated in code reviews to enhance quality standards.</li>
-               <li>Resolved application bugs and issues through effective troubleshooting techniques.</li>
-            </ul>
+          
 
-                </div>
+            {/* Work Experience Section */}
+            <div className={` designSkill w-full ${isMobile ? 'basis-full' : 'basis-1/2'} p-4 bg-white text-gray-800 rounded-lg shadow-lg`} style={{ backgroundColor: '#D7D3BF' }}>
+                <h1 className="text-xl font-semibold mb-4">Work Experience</h1>
+                <div className="flex flex-col space-y-4">
+                    <div className="flex flex-row justify-between items-end">
+                        <span className="font-bold">Software Developer</span>
+                        <span className="text-gray-600">2024 - Present</span>
+                    </div>
+                    <p className="text-gray-700">Empowered Futures</p>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Developed and optimized back-end applications for Empowered Futures.</li>
+                        <li>Collaborated with developers and participated in code reviews to enhance quality standards.</li>
+                        <li>Resolved application bugs and issues through effective troubleshooting techniques.</li>
+                    </ul>
                 </div>
             </div>
         </div>
  
         <div className="flex flex-col md:flex-row">
-            <div className={` designSkill w-full ${isMobile ? 'md:basis-1/2' : 'md:basis-1/4'} p-4 bg-white text-gray-800 rounded-lg shadow-lg`} style={{ backgroundColor: '#D7D3BF' }}>
+            <div className={`  designSkill w-full ${isMobile ? 'md:basis-1/2' : 'md:basis-1/4'} p-4 bg-white text-gray-800 rounded-lg shadow-lg`} style={{ backgroundColor: '#D7D3BF' }}>
                 <h1 className="text-xl font-semibold mb-4">Languages</h1>
                 <div className="grid grid-cols-2 gap-4">
                     {ProgrammingLanguage.map((language, index) => (
