@@ -2,6 +2,7 @@ import * as React from "react";
 // Uncomment and use this if you plan to implement media queries
 // import { useMediaQuery } from "@uidotdev/usehooks";
 import { useMediaQuery } from 'react-responsive';
+import { motion } from "framer-motion";
  
 import Skill from "./skill.js"
 const ProgrammingLanguage =["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg","https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg","https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg","https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" ]
@@ -68,9 +69,12 @@ export default function About() {
                 <h1 className="text-xl font-semibold mb-4">Languages</h1>
                 <div className="grid grid-cols-2 gap-4">
                     {ProgrammingLanguage.map((language, index) => (
-                        <div key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
+                         <motion.div
+                        whileHover={{ scale: 2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 12 }}div key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
                             <Skill images={language} />
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
@@ -79,9 +83,12 @@ export default function About() {
                 <h1 className="text-xl font-semibold mb-4">Development</h1>
                 <div className="grid grid-cols-2 gap-4">
                     {development.map((language, index) => (
-                        <div key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
+                        <motion.div
+                        whileHover={{ scale: 2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 12 }} key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
                             <Skill images={language} />
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
@@ -90,9 +97,12 @@ export default function About() {
                 <h1 className="text-xl font-semibold mb-4">Database</h1>
                 <div className="grid grid-cols-2 gap-4">
                     {Database.map((language, index) => (
-                        <div key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
+                        <motion.div
+                        whileHover={{ scale: 2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 12 }} key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
                             <Skill images={language} />
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
@@ -102,9 +112,12 @@ export default function About() {
                 <h1 className="text-xl font-semibold mb-4">Tools</h1>
                 <div className="grid grid-cols-2 gap-4">
                     {Tools.map((language, index) => (
-                        <div key={index} className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
+                        <motion.div
+                        whileHover={{ scale: 2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 12 }} key={index}   className="flex justify-center items-center border border-gray-300 rounded-lg p-2 shadow-sm hover:shadow-md transition bg-gray-100 text-gray-700">
                             <Skill images={language} />
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
