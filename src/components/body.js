@@ -6,9 +6,23 @@ export default function Body(){
 return<div className = "mainBody border-none">
        
     <div className = "content grid justify-items-center">
-        <div>
+    <motion.div
+      className="box"
+      animate={{
+        scale: [1, 1.5, 1.5, 1, 1],
+        rotate: [0, 0, 180, 180, 0],
+        borderRadius: ["0%", "0%", "50%", "50%", "0%"]
+      }}
+      transition={{
+        duration: 2,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: Infinity,
+        repeatDelay: 1
+      }}
+    >
          <img  className = " animate__animated animate__backInDown image"src="/images/programmer.png" alt="Logo" /> 
-        </div>
+        </motion.div>
         <h1 className = "animate__animated animate__backInDown bodyH1" >Hi, there!</h1>
         <p className ="animate__animated animate__backInDown text-center pSmall  ">My name is Sukhad, I am a aspiring Software Developer</p>
         <div className = "flex justify-center  ">
