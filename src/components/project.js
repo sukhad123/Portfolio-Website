@@ -19,7 +19,7 @@ export default function Project() {
                         />
                         <h2 className="text-lg font-bold mb-2">{project.name}</h2>
                         <div className="mb-4">
-                            <h3 className="text-md font-semibold mb-2">Tools Used:</h3>
+                            <h3 className="text-md font-semibold mb-2">Tools</h3>
                             <div className="flex flex-wrap gap-2">
                                 {project.tools.map((tool, idx) => (
                                     <span

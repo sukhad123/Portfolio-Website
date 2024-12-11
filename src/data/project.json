@@ -22,5 +22,12 @@
     "image": "https://i.ibb.co/3p4q43K/Screenshot-2024-12-11-083410.png",
     "github": "https://github.com/sukhad123/Assembly-line-OOP345",
     "tools": ["C++"]
+  },
+  {
+    "name": "Seneca Housing Hackathon",
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFNXPNJxNCIaQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1710641435086?e=1736985600&v=beta&t=j_jkLsxgS2yP79FhzZhOVp5IRjmWg2WoMVHupaHV8mE",
+    "github": "https://github.com/sukhad123/Housing-Hackathon-2024",
+    "tools": ["React.js", "python", "Node.js"]
   }
+
 ]
