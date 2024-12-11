@@ -2,6 +2,11 @@ export default function Skill( props)
 {
   
     return<>
-    {props.name}
+    <main>
+        
+                <img className ="logoImg" src={props.images} alt="Logo" />
+                
+              
+    </main>
     </>
 }

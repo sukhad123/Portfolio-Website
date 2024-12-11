@@ -16,11 +16,10 @@ function App() {
       />
     <main>
       <motion.div style={{ scaleX: scrollYProgress }} />
- 
+
       <Navbar />
       <Body />
       <About />
-      <Skill name = "sukhad"/>
   
     </main>
     </>
