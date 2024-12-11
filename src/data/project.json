@@ -1,17 +1,26 @@
 [
   {
-    "name": "Hotel Reservation System (Java JavaFX, MySQL)",
+    "name": "Hotel Reservation System",
     "image": "https://github.com/sukhad123/Hotel-Reservation-System/raw/main/src/images/hotelreservation.png",
-    "github": "https://github.com/sukhad123/Hotel-Reservation-System"
+    "github": "https://github.com/sukhad123/Hotel-Reservation-System",
+    "tools": ["Java", "JavaFx", "MySQL"]
   },
   {
     "name": "Next.js Full Stack Application",
-    "image": "https://via.placeholder.com/300",
-    "github": "https://github.com/sukhad123/React-Next.js-Node.JS"
+    "image": "https://dl.imgdrop.io/file/aed8b140-8472-4813-922b-7ce35ef93c9e/2024/12/11/Screenshot-2024-12-11-082707c0c77cf51344bb88.png",
+    "github": "https://github.com/sukhad123/React-Next.js-Node.JS",
+    "tools": ["React", "Node.js", "MongoDB"]
   },
   {
     "name": "LegoSets(Full Stack Web Application)",
-    "image": "https://via.placeholder.com/300",
-    "github": "https://github.com/sukhad123/Web322_LegoSets_WebApplication"
+    "image": "https://dl.imgdrop.io/file/aed8b140-8472-4813-922b-7ce35ef93c9e/2024/12/11/Screenshot-2024-12-11-08294351458e241dec1b36.png",
+    "github": "https://github.com/sukhad123/Web322_LegoSets_WebApplication",
+    "tools": ["HTML", "CSS", "TailwindCSS", "Node.js","Express.js", "MongoDB" ,"PostgreSQL"]
+  },
+  {
+    "name": "Simulated Assembly line",
+    "image": "https://i.ibb.co/3p4q43K/Screenshot-2024-12-11-083410.png",
+    "github": "https://github.com/sukhad123/Assembly-line-OOP345",
+    "tools": ["C++"]
   }
 ]
