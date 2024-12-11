@@ -1,7 +1,7 @@
 
 export default function Navbar()
 {
-    return  <div className="flex flex-col md:flex-row bg-white shadow-md p-4" style={{ backgroundColor: '#D7D3BF' }}>
+    return  <div className="content flex flex-col md:flex-row bg-white shadow-md p-4" style={{ backgroundColor: '#D7D3BF' }}>
     
     <div className="hidden md:block md:basis-1/4"></div>
 

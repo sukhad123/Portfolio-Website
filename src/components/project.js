@@ -1,11 +1,12 @@
-const Project = ({ projects }) => {
-    
-    const Projects = [""]
+import React from 'react';
+import projectsData from '../data/project.json'; // Import the JSON file
+
+export default function Project() {
     return (
         <div className="p-4 bg-white rounded-lg shadow-md" style={{ backgroundColor: '#D7D3BF' }}>
             <h1 className="text-xl font-semibold mb-4">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {projects.map((project, index) => (
+                {projectsData.map((project, index) => (
                     <div key={index} className="bg-gray-100 rounded-lg shadow-lg p-4">
                         <img
                             src={project.image}
@@ -26,5 +27,4 @@ const Project = ({ projects }) => {
             </div>
         </div>
     );
-};
-export {Project};
+}
