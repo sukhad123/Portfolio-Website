@@ -17,7 +17,7 @@ return<div className = "mainBody border-none">
         duration: 2,
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: Infinity,
+        repeat: Infinity, 
         repeatDelay: 1
       }}
     >
