@@ -24,7 +24,7 @@ return<div className = "mainBody border-none">
          <img  className = " animate__animated animate__backInDown image"src="/images/programmer.png" alt="Logo" /> 
         </motion.div>
         <h1 className = "animate__animated animate__backInDown bodyH1" >Hi, there!</h1>
-        <p className ="animate__animated animate__backInDown text-center pSmall  ">My name is Sukhad, I am a aspiring Software Developer</p>
+        <p className ="animate__animated animate__backInDown text-center pSmall  ">My name is Sukhad, I am a Software Developer</p>
         <div className = "flex justify-center  ">
         <a href="https://www.linkedin.com/in/sukhad-adhikari/" target="_blank" rel="noopener noreferrer">
          
