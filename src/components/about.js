@@ -41,7 +41,7 @@ export default function About() {
                         <span className="font-bold">Seneca Polytechnic</span>
                         <span className="text-gray-600">2022 - 2025</span>
                     </div>
-                    <p className="text-gray-700">Advanced Diploma in Computer Programming and Analysis</p>
+                    <p className="text-gray-700">Computer Programming and Analysis</p>
                 </div>
             </div>
           

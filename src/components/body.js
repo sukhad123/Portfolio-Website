@@ -34,12 +34,12 @@ return<div className = "mainBody border-none">
         transition={{ type: "spring", stiffness: 300, damping: 12 }}
         className="animate__animated animate__backInLeft customBtn focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">LinkedIn</motion.button>
         </a>
-        <a href="https://github.com/sukhad123?tab=overview&from=2023-12-01&to=2023-12-31" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/12UcsvQXD0K15uSww3qBA9F1axopCDrd-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <motion.button
         whileHover={{ scale: 2}}
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 300, damping: 12 }}
-        className="   customBtn text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">GitHub</motion.button>
+        className="   customBtn text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Resume</motion.button>
              </a>
         </div>
     </div>
