@@ -34,7 +34,7 @@ return<div className = "mainBody border-none">
         transition={{ type: "spring", stiffness: 300, damping: 12 }}
         className="animate__animated animate__backInLeft customBtn focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">LinkedIn</motion.button>
         </a>
-        <a href="https://drive.google.com/file/d/12UcsvQXD0K15uSww3qBA9F1axopCDrd-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1C8a2CqcGi9zHizx-nE21N5z514wanpHS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <motion.button
         whileHover={{ scale: 2}}
         whileTap={{ scale: 0.9 }}
