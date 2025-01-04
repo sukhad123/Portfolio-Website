@@ -9,11 +9,9 @@ import ProgressBar from "./components/loader.js"
  
 function App() {
   const { scrollYProgress } = useScroll();
-  useEffect(() => {
-    document.title = "Sukhad's Website";
-  }, []);
+  
 
-//random change to chec
+//random change to
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
