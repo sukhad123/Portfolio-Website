@@ -50,12 +50,8 @@ function App() {
      
       ) : (
         <div>
-          <motion.div
-            className="progress-bar"
-            style={{ scaleX: scrollYProgress }}
-          />
           <main>
-            <motion.div style={{ scaleX: scrollYProgress }} />
+        <motion.div   className="progress-bar" style={{ scaleX: scrollYProgress }} />
             <Navbar />
             <Body />
             <About />
