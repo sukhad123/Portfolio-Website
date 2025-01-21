@@ -63,7 +63,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className="flex flex-col space-y-4">
-                    <div className="flex flex-row justify-between items-end">
+                    <div className="flex flex-row justify-between items-end pt-2">
                         <span className="font-bold">Software Developer(Part Time)</span>
                         <span className="text-gray-600">Nov 2024 - Jan 2025</span>
                     </div>
