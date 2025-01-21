@@ -46,13 +46,26 @@ export default function About() {
             </div>
           
 
+
             {/* Work Experience Section */}
+            
             <div className={` designSkill w-full ${isMobile ? 'basis-full' : 'basis-1/2'} p-4 bg-white text-gray-800 rounded-lg shadow-lg`} style={{ backgroundColor: '#D7D3BF' }}>
                 <h1 className="text-xl font-semibold mb-4">Work Experience</h1>
                 <div className="flex flex-col space-y-4">
                     <div className="flex flex-row justify-between items-end">
-                        <span className="font-bold">Software Developer</span>
-                        <span className="text-gray-600">2024 - Present</span>
+                        <span className="font-bold">Software Engineer Intern(Winter 2025)</span>
+                        <span className="text-gray-600">Jan 2025 - April 2025</span>
+                    </div>
+                    <p className="text-gray-700">EC Studios</p>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                        <li>-	Responsible for the full stack development of the upcoming Noon project, focused on automating manual tasks, integrating and maintaining RESTful APIs to ensure data flow between frontend and backend components. </li>
+                        <li>-	Tasks include contributing to CI/CD pipelines with Docker and Jenkins and managing version control using Git/GitHub.</li>
+                    </ul>
+                </div>
+                <div className="flex flex-col space-y-4">
+                    <div className="flex flex-row justify-between items-end">
+                        <span className="font-bold">Software Developer(Part Time)</span>
+                        <span className="text-gray-600">Nov 2024 - Jan 2025</span>
                     </div>
                     <p className="text-gray-700">Empowered Futures</p>
                     <ul className="list-disc list-inside text-gray-700 space-y-2">
